@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,400&display=swap');
+
+:root {
+  --bg-color: #ffffff;
+  --button-color: #326589;
+  --text-title-color: #fc6621;
+  --text-description-color: #fc6621;
+  --text-price-color: #002f52;
+  --text-author-color: #858585;
+  --text-tag-color: #9c9c9c;
+}
+
+body {
+  font-family: 'Poppins';
+}
+
+.wrap {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  width: 100%;
+  background-color: var(--bg-color);
+  margin: 1rem 1rem;
+}
+
+.banner {
+  background-image: url('imagens/Banner-1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 278px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  margin: 1rem 0.5rem;
+}
+
+.btn {
+  background-color: var(--button-color);
+  border: none;
+  cursor: pointer;
+  height: 2.7rem;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  margin: 0 0.2rem 0 0.2rem;
+}
+
+.btn:hover {
+  color: #cecdcd;
+  border-radius: 10px;
+  border-bottom: 2px solid var(--text-description-color);
+}
+
+.livros {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.livro {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 580px;
+}
+
+.indisponivel {
+  opacity: 0.3;
+}
+
+.livro__titulo {
+  color: var(--text-title-color);
+  font-weight: 43rem;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.livro__preco {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 43rem;
+  color: var(--text-price-color);
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+.tag {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-tag-color);
+  padding: 5px 4px;
+  background: rgba(197, 197, 197, 0.25);
+  border-radius: 4px;
+  margin-right: 1rem;
+}
+
+.rodape {
+  color: var(--text-tag-color);
+}

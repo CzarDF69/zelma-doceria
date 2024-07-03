@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta metacharset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="app/style.css">
+  <title>Zelma Doceria & Cafeteria</title>
+</head>
+
+<body>
+  <section class="container-fluid">
+
+    <div class="container-fluid mt-2 header">
+      <h1>Zelma Doceria & Cafeteria</h1>
+    </div>
+
+    <div class="container-fluid mt-2">
+      <ul class="nav">
+        <li><button class="btn btn-front" href="#" id="btnFiltrarLivrosFront" value="front-end">BOLOS</button>
+        </li>
+        <li><button class="btn btn-back" href="#" id="btnFiltrarLivrosBack" value="back-end">DOCES</button>
+        </li>
+        <li><button class="btn btn-dados" href="#" id="btnFiltrarLivrosDados" value="dados">CAFÉS</button>
+        </li>
+        <li><button class="btn btn-disponiveis" href="#" id="btnLivrosDisponiveis" value="disponivel">TUDO</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="container-fluid">
+      <div class="livros d-flex" id="produtos"></div>
+    </div>
+
+    <div class="container-fluid mt-2 rodape" id="rodape"></div>
+  </section>
+
+  <script src="app/main.js"></script>
+  <script src="app/metodoForEach.js"></script>
+  <script src="app/metodoMap.js"></script>
+  <script src="app/metodoFilter.js"></script>
+  <script src="app/metodoSort.js"></script>
+  <script src="app/rodape.js"></script>
+  <script src="bootstrap/js/jquery.js"></script>
+  <script src="bootstrap/js/popper.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="bootstrap/js/holder.min.js"></script>
+</body>
+
+</html>
