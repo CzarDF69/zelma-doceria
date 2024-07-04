@@ -11,14 +11,9 @@
 
 <body>
   <section class="container-fluid">
+    <div class="container-fluid p-2 header" id="header"></div>
 
-    <div class="container-fluid mt-2 header">
-      <h1>Zelma Doceria & Cafeteria</h1>
-    </div>
-
-    <div class="banner"></div>
-
-    <div class="container-fluid py-3">
+    <div class="container-fluid">
       <ul class="nav">
         <li><button class="btn btn-cafe" href="#" id="btnFiltrarCafes" value="cafe">CAFÉS</button>
         </li>
@@ -28,10 +23,12 @@
         </li>
         <li><button class="btn btn-bolo" href="#" id="btnFiltrarBolos" value="bolo">BOLOS</button>
         </li>
-        <li><button class="btn btn-disponiveis" href="#" id="btnListarDisponiveis" value="disponivel">Disponíveis</button>
+        <li><button class="btn btn-sobre" href="#" id="btnSobre" value="sobre">Sobre</button>
         </li>
       </ul>
     </div>
+
+    <br>
 
     <div class="container-fluid">
       <div class="produtos d-flex" id="produtos"></div>
@@ -43,6 +40,7 @@
   <script src="app/main.js"></script>
   <script src="app/metodoFilter.js"></script>
   <script src="app/metodoForEach.js"></script>
+  <script src="app/cabecalho.js"></script>
   <script src="app/rodape.js"></script>
   <script src="bootstrap/js/jquery.js"></script>
   <script src="bootstrap/js/popper.min.js"></script>

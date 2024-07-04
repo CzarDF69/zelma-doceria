@@ -14,9 +14,16 @@ body {
 
 .header {
   text-align: center;
-  width: 100%;
+  width: auto;
   background-color: var(--bg-color);
-  margin: 1rem 1rem;
+}
+
+.header__titulo {
+  font-size: xx-large;
+}
+
+.header__contato {
+  font-size: x-large;
 }
 
 .banner {
@@ -34,14 +41,15 @@ body {
   margin: 0.3rem;
 }
 
-.btn {
+.btn,
+.btn-voltar {
   background-color: var(--button-color);
   border: none;
   cursor: pointer;
   height: 3rem;
+  width: auto;
   text-decoration: none;
   color: #fff;
-  padding: 10px 16px;
   border-radius: 8px;
   font-size: 0.9rem;
   font-family: 'Poppins';
@@ -53,7 +61,7 @@ body {
 .btn:hover {
   color: #cecdcd;
   border-radius: 10px;
-  border-bottom: 2px solid var(--text-description-color);
+  border-bottom: 2px solid var(--bg-color);
 }
 
 .produtos {
@@ -106,4 +114,25 @@ body {
 
 .rodape {
   color: var(--text-tag-color);
+}
+
+.sobre {
+  text-justify: center;
+}
+
+@media (max-width: 575.98px) {
+  .header__titulo {
+    font-size: large;
+  }
+  .header__contato {
+    font-size: medium;
+  }
+  .nav {
+    height: 3rem;
+    margin: 0.1rem;
+  }
+  .btn {
+    height: 1.5rem;
+    font-size: 0.5rem;
+  }
 }
