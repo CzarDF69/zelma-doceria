@@ -1,10 +1,9 @@
-let livros = []
+let produtos = []
 const endpointDaAPI = 'app/produtos.json'
-getBuscarLivrosDaAPI()
+getBuscarProdutosDaAPI()
 
-async function getBuscarLivrosDaAPI() {
+async function getBuscarProdutosDaAPI() {
     const res = await fetch(endpointDaAPI)
-    livros = await res.json()
-    // let livrosComDesconto = aplicarDesconto(livros)
-    exibirOsLivrosNaTela(livros)
+    produtos = await res.json()
+    exibirProdutosNaTela(produtos)
 }

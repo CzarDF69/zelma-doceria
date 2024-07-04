@@ -1,9 +1,9 @@
 const botoes = document.querySelectorAll('.btn')
-botoes.forEach(btn => btn.addEventListener('click', filtrarLivros))
+botoes.forEach(btn => btn.addEventListener('click', filtrarProdutos))
 
-function filtrarLivros() {
+function filtrarProdutos() {
     const elementoBtn = document.getElementById(this.id)
-    const categoria = elementoBtn.value
-    let livrosFiltrados = categoria == 'disponivel' ? livros.filter(livro => livro.quantidade > 0) : livros.filter(livro => livro.categoria == categoria)
-    exibirOsLivrosNaTela(livrosFiltrados)
+    const tipo = elementoBtn.value
+    let produtosFiltrados = tipo == 'disponivel' ? produtos.filter(produto => produto.disponivel == "sim") : produtos.filter(produto => produto.tipo == tipo)
+    exibirProdutosNaTela(produtosFiltrados)
 }

@@ -3,20 +3,13 @@
 :root {
   --bg-color: #ffffff;
   --button-color: #326589;
-  --text-title-color: #fc6621;
-  --text-description-color: #fc6621;
+  --text-title-color: #123db3;
   --text-price-color: #002f52;
-  --text-author-color: #858585;
   --text-tag-color: #9c9c9c;
 }
 
 body {
   font-family: 'Poppins';
-}
-
-.wrap {
-  width: 1280px;
-  margin: 0 auto;
 }
 
 .header {
@@ -27,25 +20,25 @@ body {
 }
 
 .banner {
-  background-image: url('imagens/Banner-1.png');
+  background-image: url('../imagens/Foto-banner.png');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 278px;
+  height: 18rem;
 }
 
 .nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 3rem;
-  margin: 1rem 0.5rem;
+  height: 5rem;
+  margin: 0.3rem;
 }
 
 .btn {
   background-color: var(--button-color);
   border: none;
   cursor: pointer;
-  height: 2.7rem;
+  height: 3rem;
   text-decoration: none;
   color: #fff;
   padding: 10px 16px;
@@ -54,7 +47,7 @@ body {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  margin: 0 0.2rem 0 0.2rem;
+  margin: 0.2rem;
 }
 
 .btn:hover {
@@ -63,37 +56,35 @@ body {
   border-bottom: 2px solid var(--text-description-color);
 }
 
-.livros {
+.produtos {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.livro {
+.produto {
   width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 580px;
+  height: 530px;
+  text-align: center;
+  font-weight: 40rem;
 }
 
 .indisponivel {
   opacity: 0.3;
 }
 
-.livro__titulo {
+.produto__nome {
   color: var(--text-title-color);
-  font-weight: 43rem;
-  font-size: 1rem;
-  text-align: center;
-  line-height: 1.5rem;
+  font-size: 1.3rem;
+  line-height: 1.4rem;
 }
 
-.livro__preco {
-  text-align: center;
-  font-size: 1.6rem;
-  font-weight: 43rem;
+.produto__preco {
   color: var(--text-price-color);
+  font-size: 1.8rem;
 }
 
 .tags {

@@ -1,20 +1,21 @@
-const elementoParaInserirLivros = document.getElementById('produtos')
+const elementoParaInserir = document.getElementById('produtos')
 
-function exibirOsLivrosNaTela(listaDeLivros) {
-  elementoParaInserirLivros.innerHTML = ''
-  listaDeLivros.forEach(livro => {
-    // let disponibilidade = verificarDisponibilidadeDoLivro(livro)
-    let disponibilidade = livro.quantidade > 0 ? 'livro__imagens' : 'livro__imagens indisponivel'
-    elementoParaInserirLivros.innerHTML += `
-        <div class="p-2 livro">
-          <img class="${disponibilidade}" src="${livro.imagem}"
-            alt="${livro.alt}" />
-          <h2 class="livro__titulo">
-            ${livro.titulo}
+function exibirProdutosNaTela(listaDeProdutos) {
+  elementoParaInserir.innerHTML = ''
+  listaDeProdutos.forEach(produto => {
+    let disponibilidade = produto.disponivel == 'sim' ? 'produto__imagens' : 'produto__imagens indisponivel'
+    elementoParaInserir.innerHTML += `
+        <div class="p-2 produto">
+          <img class="${disponibilidade}" src="${produto.imagem}"
+            alt="${produto.alt}" />
+          <h2 class="produto__nome">
+            ${produto.nome}
           </h2>
-          <p class="livro__preco" id="preco">R$${livro.preco.toFixed(2)}</p>
+          <h2 class="produto__preco">
+            R$${produto.preco.toFixed(2)}
+          </h2>
           <div class="tags">
-            <span class="tag">#${livro.categoria}</span>
+            <span class="tag">#${produto.tipo}</span>
           </div>
         </div>
         `

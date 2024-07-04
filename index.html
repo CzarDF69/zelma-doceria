@@ -16,31 +16,33 @@
       <h1>Zelma Doceria & Cafeteria</h1>
     </div>
 
-    <div class="container-fluid mt-2">
+    <div class="banner"></div>
+
+    <div class="container-fluid py-3">
       <ul class="nav">
-        <li><button class="btn btn-front" href="#" id="btnFiltrarLivrosFront" value="front-end">BOLOS</button>
+        <li><button class="btn btn-cafe" href="#" id="btnFiltrarCafes" value="cafe">CAFÉS</button>
         </li>
-        <li><button class="btn btn-back" href="#" id="btnFiltrarLivrosBack" value="back-end">DOCES</button>
+        <li><button class="btn btn-doce" href="#" id="btnFiltrarDoces" value="doce">DOCES</button>
         </li>
-        <li><button class="btn btn-dados" href="#" id="btnFiltrarLivrosDados" value="dados">CAFÉS</button>
+        <li><button class="btn btn-salgado" href="#" id="btnFiltrarSalgados" value="salgado">SALGADOS</button>
         </li>
-        <li><button class="btn btn-disponiveis" href="#" id="btnLivrosDisponiveis" value="disponivel">TUDO</button>
+        <li><button class="btn btn-bolo" href="#" id="btnFiltrarBolos" value="bolo">BOLOS</button>
+        </li>
+        <li><button class="btn btn-disponiveis" href="#" id="btnListarDisponiveis" value="disponivel">Disponíveis</button>
         </li>
       </ul>
     </div>
 
     <div class="container-fluid">
-      <div class="livros d-flex" id="produtos"></div>
+      <div class="produtos d-flex" id="produtos"></div>
     </div>
 
     <div class="container-fluid mt-2 rodape" id="rodape"></div>
   </section>
 
   <script src="app/main.js"></script>
-  <script src="app/metodoForEach.js"></script>
-  <script src="app/metodoMap.js"></script>
   <script src="app/metodoFilter.js"></script>
-  <script src="app/metodoSort.js"></script>
+  <script src="app/metodoForEach.js"></script>
   <script src="app/rodape.js"></script>
   <script src="bootstrap/js/jquery.js"></script>
   <script src="bootstrap/js/popper.min.js"></script>
