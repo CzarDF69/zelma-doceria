@@ -1,29 +1,134 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,400&display=swap');
+.fira-sans-extra-condensed-thin {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.fira-sans-extra-condensed-extralight {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.fira-sans-extra-condensed-light {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.fira-sans-extra-condensed-regular {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fira-sans-extra-condensed-medium {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fira-sans-extra-condensed-semibold {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.fira-sans-extra-condensed-bold {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.fira-sans-extra-condensed-extrabold {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.fira-sans-extra-condensed-black {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.fira-sans-extra-condensed-thin-italic {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.fira-sans-extra-condensed-extralight-italic {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.fira-sans-extra-condensed-light-italic {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.fira-sans-extra-condensed-regular-italic {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.fira-sans-extra-condensed-medium-italic {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.fira-sans-extra-condensed-semibold-italic {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.fira-sans-extra-condensed-bold-italic {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.fira-sans-extra-condensed-extrabold-italic {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.fira-sans-extra-condensed-black-italic {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
 
 :root {
-  --bg-color: #ffffff;
+  --bg-color: #ffd9ef;
   --button-color: #326589;
   --text-title-color: #123db3;
   --text-price-color: #002f52;
-  --text-tag-color: #9c9c9c;
-}
-
-body {
-  font-family: 'Poppins';
+  --text-tag-color: #898989;
 }
 
 .header {
+  background-color: var(--bg-color);
   text-align: center;
   width: auto;
-  background-color: var(--bg-color);
+  padding: 0;
 }
 
 .header__titulo {
   font-size: xx-large;
+  margin-bottom: 0.2rem;
 }
 
 .header__contato {
   font-size: x-large;
+  margin-bottom: 0.2rem;
 }
 
 .banner {
@@ -38,21 +143,18 @@ body {
   justify-content: center;
   align-items: center;
   height: 5rem;
-  margin: 0.3rem;
 }
 
-.btn,
-.btn-voltar {
+.btn {
   background-color: var(--button-color);
   border: none;
   cursor: pointer;
   height: 3rem;
-  width: auto;
+  width: 7.2rem;
   text-decoration: none;
   color: #fff;
   border-radius: 8px;
-  font-size: 0.9rem;
-  font-family: 'Poppins';
+  font-size: 1.1rem;
   font-style: normal;
   font-weight: 400;
   margin: 0.2rem;
@@ -65,17 +167,19 @@ body {
 }
 
 .produtos {
+  background-color: var(--bg-color);
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 .produto {
+  background-color: white;
   width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 530px;
+  height: 320px;
   text-align: center;
   font-weight: 40rem;
 }
@@ -88,32 +192,21 @@ body {
   color: var(--text-title-color);
   font-size: 1.3rem;
   line-height: 1.4rem;
+  margin: 0.2rem;
 }
 
 .produto__preco {
   color: var(--text-price-color);
   font-size: 1.8rem;
-}
-
-.tags {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: start;
-}
-
-.tag {
-  text-align: left;
-  font-size: 14px;
-  font-weight: 500;
-  color: var(--text-tag-color);
-  padding: 5px 4px;
-  background: rgba(197, 197, 197, 0.25);
-  border-radius: 4px;
-  margin-right: 1rem;
+  margin: 0.2rem;
 }
 
 .rodape {
+  background-color: var(--bg-color);
   color: var(--text-tag-color);
+  p {
+    margin-bottom: 0;
+  }
 }
 
 .sobre {
@@ -122,17 +215,17 @@ body {
 
 @media (max-width: 575.98px) {
   .header__titulo {
-    font-size: x-large;
+    font-size: large;
   }
   .header__contato {
     font-size: large;
   }
   .nav {
-    height: 3rem;
-    margin: 0.1rem;
+    height: 4rem;
+    margin: 0 0 1rem 0;
   }
   .btn {
     height: 2rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }

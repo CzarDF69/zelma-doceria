@@ -4,6 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="app/style.css">
   <title>Zelma Doceria & Cafeteria</title>
@@ -11,35 +14,29 @@
 
 <body>
   <section class="container-fluid">
-    <div class="container-fluid p-2 header" id="header"></div>
+    <div class="container-fluid header" id="header"></div>
 
-    <div class="container-fluid">
-      <ul class="nav">
-        <li><button class="btn btn-cafe" href="#" id="btnFiltrarCafes" value="cafe">CAFÉS</button>
-        </li>
-        <li><button class="btn btn-doce" href="#" id="btnFiltrarDoces" value="doce">DOCES</button>
-        </li>
-        <li><button class="btn btn-salgado" href="#" id="btnFiltrarSalgados" value="salgado">SALGADOS</button>
-        </li>
-        <li><button class="btn btn-bolo" href="#" id="btnFiltrarBolos" value="bolo">BOLOS</button>
-        </li>
-        <li><button class="btn btn-sobre" href="#" id="btnSobre" value="sobre">Sobre</button>
-        </li>
-      </ul>
-    </div>
+    <ul class="nav">
+      <li><button class="btn btn-bolo" href="#" id="btnFiltrarBolos" value="bolo">BOLOS</button>
+      </li>
+      <li><button class="btn btn-cafe" href="#" id="btnFiltrarCafes" value="cafe">CAFÉS</button>
+      </li>
+      <li><button class="btn btn-doce" href="#" id="btnFiltrarDoces" value="doce">DOCES</button>
+      </li>
+      <li><button class="btn btn-salgado" href="#" id="btnFiltrarSalgados" value="salgado">SALGADOS</button>
+      </li>
+      <!-- <li><button class="btn btn-sobre" href="#" id="btnSobre" value="sobre">Sobre</button>
+      </li> -->
+    </ul>
 
-    <br>
+    <div class="container-fluid d-flex produtos" id="produtos"></div>
 
-    <div class="container-fluid">
-      <div class="produtos d-flex" id="produtos"></div>
-    </div>
-
-    <div class="container-fluid mt-2 rodape" id="rodape"></div>
+    <div class="container-fluid rodape" id="rodape"></div>
   </section>
 
   <script charset="UTF-8" src="app/main.js"></script>
-  <script charset="UTF-8" src="app/metodoFilter.js"></script>
-  <script charset="UTF-8" src="app/metodoForEach.js"></script>
+  <script charset="UTF-8" src="app/filtrarProdutos.js"></script>
+  <script charset="UTF-8" src="app/exibirProdutos.js"></script>
   <script charset="UTF-8" src="app/cabecalho.js"></script>
   <script charset="UTF-8" src="app/rodape.js"></script>
   <script src="bootstrap/js/jquery.js"></script>

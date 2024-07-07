@@ -2,7 +2,7 @@
     {
         "nome": "Doce de leite",
         "preco": 29.9,
-        "imagem": "/imagens/Bootstrap4.png",
+        "imagem": "/imagens/japaratinga.jpg",
         "alt": "Doce de leite",
         "disponivel": "nao",
         "tipo": "doce"
@@ -10,7 +10,7 @@
     {
         "nome": "Pastel de carne",
         "preco": 89.9,
-        "imagem": "/imagens/Bootstrap4.png",
+        "imagem": "/imagens/japaratinga.jpg",
         "alt": "Pastel de carne",
         "disponivel": "sim",
         "tipo": "salgado"
@@ -18,7 +18,7 @@
     {
         "nome": "Café expresso curto",
         "preco": 5.0,
-        "imagem": "/imagens/Bootstrap4.png",
+        "imagem": "/imagens/japaratinga.jpg",
         "alt": "Café expresso curto",
         "disponivel": "sim",
         "tipo": "cafe"
@@ -26,7 +26,7 @@
     {
         "nome": "Cocada branca",
         "preco": 79.9,
-        "imagem": "/imagens/Bootstrap4.png",
+        "imagem": "/imagens/japaratinga.jpg",
         "alt": "Cocada branca",
         "disponivel": "sim",
         "tipo": "doce"
@@ -34,7 +34,7 @@
     {
         "nome": "Cocada queimada",
         "preco": 49.9,
-        "imagem": "/imagens/Bootstrap4.png",
+        "imagem": "/imagens/japaratinga.jpg",
         "alt": "Cocada queimada",
         "disponivel": "sim",
         "tipo": "doce"
@@ -42,7 +42,7 @@
     {
         "nome": "Brigadeiro",
         "preco": 19.9,
-        "imagem": "/imagens/Bootstrap4.png",
+        "imagem": "/imagens/japaratinga.jpg",
         "alt": "Brigadeiro",
         "disponivel": "sim",
         "tipo": "doce"
@@ -50,7 +50,7 @@
     {
         "nome": "Bolo de cenoura",
         "preco": 9.9,
-        "imagem": "/imagens/Bootstrap4.png",
+        "imagem": "/imagens/japaratinga.jpg",
         "alt": "Bolo de cenoura",
         "disponivel": "sim",
         "tipo": "bolo"
@@ -58,7 +58,7 @@
     {
         "nome": "Café expresso longo",
         "preco": 7.0,
-        "imagem": "/imagens/Bootstrap4.png",
+        "imagem": "/imagens/japaratinga.jpg",
         "alt": "Café expresso longo",
         "disponivel": "sim",
         "tipo": "cafe"
@@ -66,7 +66,7 @@
     {
         "nome": "Bolo de frutas",
         "preco": 29.9,
-        "imagem": "/imagens/Bootstrap4.png",
+        "imagem": "/imagens/japaratinga.jpg",
         "alt": "Bolo de frutas",
         "disponivel": "sim",
         "tipo": "bolo"
@@ -74,7 +74,7 @@
     {
         "nome": "Bolo de chocolate",
         "preco": 94.9,
-        "imagem": "/imagens/Bootstrap4.png",
+        "imagem": "/imagens/japaratinga.jpg",
         "alt": "Bolo de chocolate",
         "disponivel": "sim",
         "tipo": "bolo"
@@ -82,7 +82,7 @@
     {
         "nome": "Pudim de leite",
         "preco": 139.9,
-        "imagem": "/imagens/Bootstrap4.png",
+        "imagem": "/imagens/japaratinga.jpg",
         "alt": "Pudim de leite",
         "disponivel": "sim",
         "tipo": "doce"
@@ -90,7 +90,7 @@
     {
         "nome": "Café coado longo",
         "preco": 5.0,
-        "imagem": "/imagens/Bootstrap4.png",
+        "imagem": "/imagens/japaratinga.jpg",
         "alt": "Café coado longo",
         "disponivel": "sim",
         "tipo": "cafe"
@@ -98,7 +98,7 @@
     {
         "nome": "Quibe frito",
         "preco": 229.9,
-        "imagem": "/imagens/Bootstrap4.png",
+        "imagem": "/imagens/japaratinga.jpg",
         "alt": "Quibe frito",
         "disponivel": "sim",
         "tipo": "salgado"
@@ -106,7 +106,7 @@
     {
         "nome": "Pé de moleque",
         "preco": 99.9,
-        "imagem": "/imagens/Bootstrap4.png",
+        "imagem": "/imagens/japaratinga.jpg",
         "alt": "Pé de moleque",
         "disponivel": "sim",
         "tipo": "doce"
