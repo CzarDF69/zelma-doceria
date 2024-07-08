@@ -4,7 +4,7 @@
         "preco": 3.5,
         "imagem": "/imagens/DocesCopos.jpeg",
         "alt": "Doce de leite",
-        "disponivel": "nao",
+        "disponivel": "sim",
         "tipo": "doce"
     },
     {
@@ -68,7 +68,7 @@
         "preco": 8,
         "imagem": "/imagens/DocesCopos.jpeg",
         "alt": "Bolo de frutas",
-        "disponivel": "sim",
+        "disponivel": "nao",
         "tipo": "bolo"
     },
     {
@@ -84,7 +84,7 @@
         "preco": 7.5,
         "imagem": "/imagens/DocesCopos.jpeg",
         "alt": "Pudim de leite",
-        "disponivel": "sim",
+        "disponivel": "nao",
         "tipo": "doce"
     },
     {

@@ -56,7 +56,7 @@
 
 .header__contato {
   font-size: x-large;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0rem;
 }
 
 .bannerFull {
@@ -70,24 +70,23 @@
 }
 
 .nav {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  height: 5rem;
+  background-color: var(--bg-color);
+  display: flex;
+  height: auto;
+  justify-content: center;
 }
 
 .btn {
   background-color: var(--button-color);
+  text-justify: center;
   border: none;
   cursor: pointer;
-  height: 3rem;
+  height: 2.7rem;
   width: 7.2rem;
   text-decoration: none;
   color: #fff;
   border-radius: 8px;
-  font-size: 1.1rem;
-  font-style: normal;
-  font-weight: 400;
   margin: 0.2rem;
 }
 
@@ -135,9 +134,14 @@
 .rodape {
   background-color: var(--bg-color);
   color: var(--text-tag-color);
-  p {
-    margin-bottom: 0;
-  }
+}
+
+.rodape__elemento {
+  padding: 0;
+}
+
+.rodape__linha {
+  margin-bottom: 0;
 }
 
 .sobre {
@@ -155,21 +159,17 @@
     height: auto;
   }
 
-  .header__titulo {
-    font-size: large;
-  }
-
+  .header__titulo,
   .header__contato {
     font-size: large;
   }
 
   .nav {
-    height: 4rem;
-    margin: 0 0 1rem 0;
+    height: 6.2rem;
   }
 
   .btn {
-    height: 2rem;
-    font-size: 0.9rem;
+    width: 10rem;
   }
+
 }
