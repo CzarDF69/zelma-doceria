@@ -1,7 +1,7 @@
 const elementoRodape = document.getElementById('rodape')
 
 elementoRodape.innerHTML = `
-<div class="container-fluid text-center">
+<div class="container-fluid text-center roboto-regular">
     <p> &copy; Zelma Doceria & Cafeteria 2024 </p>
     <p> By César Tomm
         <a target="_blank" href="https://www.linkedin.com/in/ctomm/">

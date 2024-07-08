@@ -1,16 +1,16 @@
 [
     {
         "nome": "Doce de leite",
-        "preco": 29.9,
-        "imagem": "/imagens/japaratinga.jpg",
+        "preco": 3.5,
+        "imagem": "/imagens/DocesCopos.jpeg",
         "alt": "Doce de leite",
         "disponivel": "nao",
         "tipo": "doce"
     },
     {
         "nome": "Pastel de carne",
-        "preco": 89.9,
-        "imagem": "/imagens/japaratinga.jpg",
+        "preco": 5,
+        "imagem": "/imagens/DocesCopos.jpeg",
         "alt": "Pastel de carne",
         "disponivel": "sim",
         "tipo": "salgado"
@@ -18,31 +18,31 @@
     {
         "nome": "Café expresso curto",
         "preco": 5.0,
-        "imagem": "/imagens/japaratinga.jpg",
+        "imagem": "/imagens/DocesCopos.jpeg",
         "alt": "Café expresso curto",
         "disponivel": "sim",
         "tipo": "cafe"
     },
     {
         "nome": "Cocada branca",
-        "preco": 79.9,
-        "imagem": "/imagens/japaratinga.jpg",
+        "preco": 4,
+        "imagem": "/imagens/DocesCopos.jpeg",
         "alt": "Cocada branca",
         "disponivel": "sim",
         "tipo": "doce"
     },
     {
         "nome": "Cocada queimada",
-        "preco": 49.9,
-        "imagem": "/imagens/japaratinga.jpg",
+        "preco": 4,
+        "imagem": "/imagens/DocesCopos.jpeg",
         "alt": "Cocada queimada",
         "disponivel": "sim",
         "tipo": "doce"
     },
     {
         "nome": "Brigadeiro",
-        "preco": 19.9,
-        "imagem": "/imagens/japaratinga.jpg",
+        "preco": 3,
+        "imagem": "/imagens/DocesCopos.jpeg",
         "alt": "Brigadeiro",
         "disponivel": "sim",
         "tipo": "doce"
@@ -50,7 +50,7 @@
     {
         "nome": "Bolo de cenoura",
         "preco": 9.9,
-        "imagem": "/imagens/japaratinga.jpg",
+        "imagem": "/imagens/DocesCopos.jpeg",
         "alt": "Bolo de cenoura",
         "disponivel": "sim",
         "tipo": "bolo"
@@ -58,31 +58,31 @@
     {
         "nome": "Café expresso longo",
         "preco": 7.0,
-        "imagem": "/imagens/japaratinga.jpg",
+        "imagem": "/imagens/DocesCopos.jpeg",
         "alt": "Café expresso longo",
         "disponivel": "sim",
         "tipo": "cafe"
     },
     {
         "nome": "Bolo de frutas",
-        "preco": 29.9,
-        "imagem": "/imagens/japaratinga.jpg",
+        "preco": 8,
+        "imagem": "/imagens/DocesCopos.jpeg",
         "alt": "Bolo de frutas",
         "disponivel": "sim",
         "tipo": "bolo"
     },
     {
         "nome": "Bolo de chocolate",
-        "preco": 94.9,
-        "imagem": "/imagens/japaratinga.jpg",
+        "preco": 7.5,
+        "imagem": "/imagens/DocesCopos.jpeg",
         "alt": "Bolo de chocolate",
         "disponivel": "sim",
         "tipo": "bolo"
     },
     {
         "nome": "Pudim de leite",
-        "preco": 139.9,
-        "imagem": "/imagens/japaratinga.jpg",
+        "preco": 7.5,
+        "imagem": "/imagens/DocesCopos.jpeg",
         "alt": "Pudim de leite",
         "disponivel": "sim",
         "tipo": "doce"
@@ -90,23 +90,23 @@
     {
         "nome": "Café coado longo",
         "preco": 5.0,
-        "imagem": "/imagens/japaratinga.jpg",
+        "imagem": "/imagens/DocesCopos.jpeg",
         "alt": "Café coado longo",
         "disponivel": "sim",
         "tipo": "cafe"
     },
     {
         "nome": "Quibe frito",
-        "preco": 229.9,
-        "imagem": "/imagens/japaratinga.jpg",
+        "preco": 12,
+        "imagem": "/imagens/DocesCopos.jpeg",
         "alt": "Quibe frito",
         "disponivel": "sim",
         "tipo": "salgado"
     },
     {
         "nome": "Pé de moleque",
-        "preco": 99.9,
-        "imagem": "/imagens/japaratinga.jpg",
+        "preco": 5.9,
+        "imagem": "/imagens/DocesCopos.jpeg",
         "alt": "Pé de moleque",
         "disponivel": "sim",
         "tipo": "doce"

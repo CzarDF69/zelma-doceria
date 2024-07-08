@@ -2,7 +2,6 @@ const elementoCabecalho = document.getElementById('header')
 
 elementoCabecalho.innerHTML = `
 <div class="container-fluid text-center">
-  <p class="header__titulo">Zelma Doceria & Cafeteria</p>
   <p class="header__contato">
     <a href="https://wa.me/5561984101229">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48px" height="48px" clip-rule="evenodd">
