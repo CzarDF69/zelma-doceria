@@ -1,9 +1,9 @@
-let produtos = []
-const endpointDaAPI = 'app/produtos.json'
-getBuscarProdutosDaAPI()
+let produtos = [];
+const endpointDaAPI = 'app/produtos.json';
+getBuscarProdutosDaAPI();
 
 async function getBuscarProdutosDaAPI() {
-    const res = await fetch(endpointDaAPI)
-    produtos = await res.json()
-    exibirProdutosNaTela(produtos)
+    const res = await fetch(endpointDaAPI);
+    produtos = await res.json();
+    exibirProdutosNaTela(ordenarProdutos(produtos));
 }

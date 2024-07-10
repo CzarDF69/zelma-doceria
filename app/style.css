@@ -36,7 +36,7 @@
 
 :root {
   --bg-color: #e9dc9c;
-  --button-color: #326589;
+  --btn-color: #326589;
   --text-title-color: #123db3;
   --text-price-color: #002f52;
   --text-tag-color: #898989;
@@ -49,14 +49,14 @@
   padding: 0;
 }
 
-.header__titulo {
-  font-size: xx-large;
-  margin-bottom: 0.2rem;
-}
-
 .header__contato {
   font-size: x-large;
   margin-bottom: 0rem;
+  padding: 1%;
+}
+
+.header__phone {
+  color: var(--text-title-color);
 }
 
 .bannerFull {
@@ -75,10 +75,11 @@
   display: flex;
   height: auto;
   justify-content: center;
+  padding: 1%;
 }
 
 .btn {
-  background-color: var(--button-color);
+  background-color: var(--btn-color);
   text-justify: center;
   border: none;
   cursor: pointer;
@@ -99,36 +100,23 @@
 .produtos {
   background-color: var(--bg-color);
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 10rem;
 }
 
-.produto {
-  background-color: white;
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 280px;
-  text-align: center;
-  font-weight: 40rem;
+.produto__cabecalho {
+  padding: 0.5rem 1rem;
 }
 
-.indisponivel {
-  opacity: 0.3;
-}
-
-.produto__nome {
-  color: var(--text-title-color);
-  font-size: 1.3rem;
-  line-height: 1.4rem;
-  margin: 0.2rem;
-}
-
+.produto__cabecalho__preco,
 .produto__preco {
-  color: var(--text-price-color);
-  font-size: 1.8rem;
-  margin: 0.2rem;
+  text-align: right;
+}
+
+.produto__nome,
+.produto__preco {
+  padding-bottom: 1%;
 }
 
 .rodape {
@@ -137,15 +125,11 @@
 }
 
 .rodape__elemento {
-  padding: 0;
+  padding: 1rem;
 }
 
 .rodape__linha {
   margin-bottom: 0;
-}
-
-.sobre {
-  text-justify: center;
 }
 
 @media (max-width: 575.98px) {
@@ -159,17 +143,15 @@
     height: auto;
   }
 
-  .header__titulo,
   .header__contato {
     font-size: large;
-  }
-
-  .nav {
-    height: 6.2rem;
   }
 
   .btn {
     width: 10rem;
   }
 
+  .produtos {
+    padding: 0;
+  }
 }

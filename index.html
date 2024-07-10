@@ -13,32 +13,34 @@
 </head>
 
 <body>
-  <section class="container-fluid roboto-bold">
+  <section class="container roboto-black">
 
     <img class="bannerFull" src="imagens/bannerFull.png" alt="banner Zelma Doceria e Cafeteria" width="786" height="142">
     <img class="bannerMobile" src="imagens/bannerMobile.png" alt="banner Zelma Doceria e Cafeteria" width="327" height="113">
 
-    <div class="container-fluid header" id="header"></div>
+    <div class="container header" id="header"></div>
 
     <ul class="nav">
-      <li><button class="btn btn-bolo roboto-bold" href="#" id="btnFiltrarBolos" value="bolo">BOLOS</button>
+      <li><button class="btn btn-cafe roboto-regular" href="#" id="btnFiltrarCafes" value="cafe">Cafés</button>
       </li>
-      <li><button class="btn btn-cafe roboto-bold" href="#" id="btnFiltrarCafes" value="cafe">CAFÉS</button>
+      <li><button class="btn btn-doce roboto-regular" href="#" id="btnFiltrarDoces" value="doce">Doces</button>
       </li>
-      <li><button class="btn btn-doce roboto-bold" href="#" id="btnFiltrarDoces" value="doce">DOCES</button>
+      <li><button class="btn btn-lanche roboto-regular" href="#" id="btnFiltrarLanches" value="lanche">Lanches</button>
       </li>
-      <li><button class="btn btn-salgado roboto-bold" href="#" id="btnFiltrarSalgados" value="salgado">SALGADOS</button>
+      <li><button class="btn btn-encomenda roboto-regular" href="#" id="btnFiltrarEncomendas" value="encomenda">Encomenda</button>
+      </li>
+      <li><button class="btn btn-tudo roboto-regular" href="#" id="btnMostrarTudo" value="tudo">Todos</button>
       </li>
     </ul>
 
-    <div class="container-fluid d-flex produtos" id="produtos"></div>
+    <div class="container produtos" id="produtos"></div>
 
-    <div class="container-fluid rodape" id="rodape"></div>
+    <div class="container rodape" id="rodape"></div>
   </section>
 
   <script src="app/main.js"></script>
-  <script src="app/filtrarProdutos.js"></script>
   <script src="app/exibirProdutos.js"></script>
+  <script src="app/filtrarProdutos.js"></script>
   <script src="app/cabecalho.js"></script>
   <script src="app/rodape.js"></script>
   <script src="bootstrap/js/jquery.js"></script>

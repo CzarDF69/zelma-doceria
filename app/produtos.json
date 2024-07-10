@@ -1,114 +1,86 @@
 [
     {
         "nome": "Doce de leite",
+        "categoria": "doce",
         "preco": 3.5,
-        "imagem": "/imagens/DocesCopos.jpeg",
-        "alt": "Doce de leite",
-        "disponivel": "sim",
-        "tipo": "doce"
+        "tags": [ "doce" ]
     },
     {
         "nome": "Pastel de carne",
+        "categoria": "lanche",
         "preco": 5,
-        "imagem": "/imagens/DocesCopos.jpeg",
-        "alt": "Pastel de carne",
-        "disponivel": "sim",
-        "tipo": "salgado"
+        "tags": [ "lanche" ]
     },
     {
         "nome": "Café expresso curto",
+        "categoria": "cafe",
         "preco": 5.0,
-        "imagem": "/imagens/DocesCopos.jpeg",
-        "alt": "Café expresso curto",
-        "disponivel": "sim",
-        "tipo": "cafe"
+        "tags": [ "cafe" ]
     },
     {
         "nome": "Cocada branca",
+        "categoria": "doce",
         "preco": 4,
-        "imagem": "/imagens/DocesCopos.jpeg",
-        "alt": "Cocada branca",
-        "disponivel": "sim",
-        "tipo": "doce"
+        "tags": [ "doce" ]
     },
     {
         "nome": "Cocada queimada",
+        "categoria": "doce",
         "preco": 4,
-        "imagem": "/imagens/DocesCopos.jpeg",
-        "alt": "Cocada queimada",
-        "disponivel": "sim",
-        "tipo": "doce"
+        "tags": [ "doce" ]
     },
     {
         "nome": "Brigadeiro",
+        "categoria": "doce",
         "preco": 3,
-        "imagem": "/imagens/DocesCopos.jpeg",
-        "alt": "Brigadeiro",
-        "disponivel": "sim",
-        "tipo": "doce"
+        "tags": [ "doce" ]
     },
     {
         "nome": "Bolo de cenoura",
-        "preco": 9.9,
-        "imagem": "/imagens/DocesCopos.jpeg",
-        "alt": "Bolo de cenoura",
-        "disponivel": "sim",
-        "tipo": "bolo"
+        "categoria": "doce",
+        "preco": 20,
+        "tags": [ "bolo" , "encomenda" ]
     },
     {
         "nome": "Café expresso longo",
+        "categoria": "cafe",
         "preco": 7.0,
-        "imagem": "/imagens/DocesCopos.jpeg",
-        "alt": "Café expresso longo",
-        "disponivel": "sim",
-        "tipo": "cafe"
+        "tags": [ "cafe" ]
     },
     {
         "nome": "Bolo de frutas",
-        "preco": 8,
-        "imagem": "/imagens/DocesCopos.jpeg",
-        "alt": "Bolo de frutas",
-        "disponivel": "nao",
-        "tipo": "bolo"
+        "categoria": "doce",
+        "preco": 25,
+        "tags": [ "bolo" , "encomenda" ]
     },
     {
         "nome": "Bolo de chocolate",
-        "preco": 7.5,
-        "imagem": "/imagens/DocesCopos.jpeg",
-        "alt": "Bolo de chocolate",
-        "disponivel": "sim",
-        "tipo": "bolo"
+        "categoria": "doce",
+        "preco": 30,
+        "tags": [ "bolo" , "encomenda" ]
     },
     {
         "nome": "Pudim de leite",
-        "preco": 7.5,
-        "imagem": "/imagens/DocesCopos.jpeg",
-        "alt": "Pudim de leite",
-        "disponivel": "nao",
-        "tipo": "doce"
+        "categoria": "doce",
+        "preco": 18,
+        "tags": [ "doce" , "encomenda" ]
     },
     {
         "nome": "Café coado longo",
+        "categoria": "cafe",
         "preco": 5.0,
-        "imagem": "/imagens/DocesCopos.jpeg",
-        "alt": "Café coado longo",
-        "disponivel": "sim",
-        "tipo": "cafe"
+        "tags": [ "cafe" ]
     },
     {
         "nome": "Quibe frito",
+        "categoria": "lanche",
         "preco": 12,
-        "imagem": "/imagens/DocesCopos.jpeg",
-        "alt": "Quibe frito",
-        "disponivel": "sim",
-        "tipo": "salgado"
+        "tags": [ "lanche" ]
     },
     {
         "nome": "Pé de moleque",
+        "categoria": "doce",
         "preco": 5.9,
-        "imagem": "/imagens/DocesCopos.jpeg",
-        "alt": "Pé de moleque",
-        "disponivel": "sim",
-        "tipo": "doce"
+        "tags": [ "doce" ]
     }
 ]
