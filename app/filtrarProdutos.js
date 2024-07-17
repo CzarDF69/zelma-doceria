@@ -6,7 +6,7 @@ function filtrarProdutos() {
     const tipo = elementoBtn.value;
     let prodFiltrados = [];
     if (tipo == 'encomenda') {
-        prodFiltrados = produtos.filter(produto => produto.tags[1] == tipo);
+        prodFiltrados = produtos.filter(produto => produto.tags[0] == tipo);
     } else {
         prodFiltrados = tipo == 'tudo' ? produtos.filter(produto => produto.categoria != "tudo") : produtos.filter(produto => produto.categoria == tipo);
     }

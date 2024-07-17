@@ -42,6 +42,10 @@
   --text-tag-color: #898989;
 }
 
+.container {
+  padding: 0%;
+}
+
 .header {
   background-color: var(--bg-color);
   text-align: center;
@@ -105,18 +109,29 @@
   padding: 0 10rem;
 }
 
-.produto__cabecalho {
-  padding: 0.5rem 1rem;
+.produto__cabecalho__categoria,
+.produto__cabecalho__linha {
+  color: var(--text-title-color);
+}
+
+.produto__cabecalho__categoria {
+  padding-top: 1.5rem;
+  padding-bottom: 0.6rem;
+  text-align: center;
 }
 
 .produto__cabecalho__preco,
-.produto__preco {
+.produto__linha__preco {
   text-align: right;
 }
 
-.produto__nome,
-.produto__preco {
-  padding-bottom: 1%;
+.produto__linha__nome,
+.produto__linha__preco {
+  padding-top: 2%;
+}
+
+.produto__linha__complemento {
+  font-style: italic;
 }
 
 .rodape {

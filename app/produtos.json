@@ -1,86 +1,170 @@
 [
     {
-        "nome": "Doce de leite",
-        "categoria": "doce",
+        "categoria": "lanches",
+        "nome": "Cuscuz simples",
         "preco": 3.5,
-        "tags": [ "doce" ]
+        "complemento": "",
+        "tags": []
     },
     {
-        "nome": "Pastel de carne",
-        "categoria": "lanche",
+        "categoria": "lanches",
+        "nome": "Crepioca",
+        "preco": 6,
+        "complemento": "",
+        "tags": []
+    },
+    {
+        "categoria": "lanches",
+        "nome": "Tapioca",
+        "preco": 4,
+        "complemento": "",
+        "tags": []
+    },
+    {
+        "categoria": "lanches",
+        "nome": "Pão na chapa",
+        "preco": 3.5,
+        "complemento": "",
+        "tags": []
+    },
+    {
+        "categoria": "lanches",
+        "nome": "Queijo quente",
         "preco": 5,
-        "tags": [ "lanche" ]
+        "complemento": "",
+        "tags": []
     },
     {
-        "nome": "Café expresso curto",
-        "categoria": "cafe",
-        "preco": 5.0,
-        "tags": [ "cafe" ]
+        "categoria": "lanches",
+        "nome": "Misto quente",
+        "preco": 5.5,
+        "complemento": "",
+        "tags": []
     },
     {
-        "nome": "Cocada branca",
-        "categoria": "doce",
-        "preco": 4,
-        "tags": [ "doce" ]
+        "categoria": "lanches",
+        "nome": "| Adicionais cada: ovo, queijo, presunto e frango",
+        "preco": 2,
+        "complemento": "",
+        "tags": []
     },
     {
-        "nome": "Cocada queimada",
-        "categoria": "doce",
-        "preco": 4,
-        "tags": [ "doce" ]
+        "categoria": "bebidas",
+        "nome": "Sucos naturais sabores:",
+        "preco": 6,
+        "complemento": "abacaxi, acerola, açaí, cajá, caju, frutas vermelhas, goiaba, limão,  manga, maracujá ou morango.",
+        "tags": []
     },
     {
-        "nome": "Brigadeiro",
-        "categoria": "doce",
-        "preco": 3,
-        "tags": [ "doce" ]
+        "categoria": "bebidas",
+        "nome": "Suco de laranja",
+        "preco": 8.5,
+        "complemento": "",
+        "tags": []
     },
     {
-        "nome": "Bolo de cenoura",
-        "categoria": "doce",
-        "preco": 20,
-        "tags": [ "bolo" , "encomenda" ]
+        "categoria": "bebidas",
+        "nome": "Suco Detox: Couve, abacaxi, limão e maçã",
+        "preco": 8.5,
+        "complemento": "",
+        "tags": []
     },
     {
-        "nome": "Café expresso longo",
-        "categoria": "cafe",
-        "preco": 7.0,
-        "tags": [ "cafe" ]
+        "categoria": "bebidas",
+        "nome": "Suco Detox: Couve, rúcula, laranja e linhaça",
+        "preco": 8.5,
+        "complemento": "",
+        "tags": []
     },
     {
-        "nome": "Bolo de frutas",
-        "categoria": "doce",
-        "preco": 25,
-        "tags": [ "bolo" , "encomenda" ]
+        "categoria": "bebidas",
+        "nome": "Suco Detox: Couve, beterraba e gengibre",
+        "preco": 8.5,
+        "complemento": "",
+        "tags": []
     },
     {
-        "nome": "Bolo de chocolate",
-        "categoria": "doce",
-        "preco": 30,
-        "tags": [ "bolo" , "encomenda" ]
+        "categoria": "bebidas",
+        "nome": "Suco Detox: Couve, caju e acerola",
+        "preco": 8.5,
+        "complemento": "",
+        "tags": []
     },
     {
-        "nome": "Pudim de leite",
-        "categoria": "doce",
-        "preco": 18,
-        "tags": [ "doce" , "encomenda" ]
+        "categoria": "bebidas",
+        "nome": "Suco Detox: Couve, laranja, cenoura, beterraba e gengibre",
+        "preco": 8.5,
+        "complemento": "",
+        "tags": []
     },
     {
-        "nome": "Café coado longo",
-        "categoria": "cafe",
-        "preco": 5.0,
-        "tags": [ "cafe" ]
+        "categoria": "bebidas",
+        "nome": "Suco Detox: Melão, abacaxi, maçã e chia",
+        "preco": 8.5,
+        "complemento": "",
+        "tags": []
     },
     {
-        "nome": "Quibe frito",
-        "categoria": "lanche",
-        "preco": 12,
-        "tags": [ "lanche" ]
+        "categoria": "bebidas",
+        "nome": "Suco Detox: Cenoura, gengibre, abacaxi e linhaça",
+        "preco": 8.5,
+        "complemento": "",
+        "tags": []
     },
     {
-        "nome": "Pé de moleque",
-        "categoria": "doce",
-        "preco": 5.9,
-        "tags": [ "doce" ]
+        "categoria": "bebidas",
+        "nome": "Suco Especial: Melão com erva doce",
+        "preco": 8.5,
+        "complemento": "",
+        "tags": []
+    },
+    {
+        "categoria": "bebidas",
+        "nome": "Suco Especial: Banana com laranja",
+        "preco": 8.5,
+        "complemento": "",
+        "tags": []
+    },
+    {
+        "categoria": "bebidas",
+        "nome": "Suco Especial: Beterraba com laranja",
+        "preco": 8.5,
+        "complemento": "",
+        "tags": []
+    },
+    {
+        "categoria": "bebidas",
+        "nome": "Vitamina simples sabores:",
+        "preco": 8.5,
+        "complemento": "abacate, açaí, banana ou mamão",
+        "tags": []
+    },
+    {
+        "categoria": "bebidas",
+        "nome": "Vitamina especial: Abacate, banana, aveia e mel",
+        "preco": 9.5,
+        "complemento": "",
+        "tags": []
+    },
+    {
+        "categoria": "bebidas",
+        "nome": "Vitamina especial: Banana, leite e aveia",
+        "preco": 9.5,
+        "complemento": "",
+        "tags": []
+    },
+    {
+        "categoria": "bebidas",
+        "nome": "Vitamina especial: Banana, maçã, aveia e ameixa",
+        "preco": 9.5,
+        "complemento": "",
+        "tags": []
+    },
+    {
+        "categoria": "bebidas",
+        "nome": "Vitamina especial: Banana, açaí e amendoim",
+        "preco": 9.5,
+        "complemento": "",
+        "tags": []
     }
 ]
