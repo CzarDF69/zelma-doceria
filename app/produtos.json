@@ -43,16 +43,16 @@
     },
     {
         "categoria": "lanches",
-        "nome": "| Adicionais cada: ovo, queijo, presunto e frango",
+        "nome": "~ Adicionais cada:",
         "preco": 2,
-        "complemento": "",
+        "complemento": "ovo, queijo, presunto e frango",
         "tags": []
     },
     {
         "categoria": "bebidas",
         "nome": "Sucos naturais sabores:",
         "preco": 6,
-        "complemento": "abacaxi, acerola, açaí, cajá, caju, frutas vermelhas, goiaba, limão,  manga, maracujá ou morango.",
+        "complemento": "abacaxi, acerola, açaí, cajá, caju, frutas vermelhas, goiaba, limão,  manga, maracujá ou morango",
         "tags": []
     },
     {

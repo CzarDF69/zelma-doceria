@@ -34,8 +34,8 @@ function exibirProdutosNaTela(listaDeProdutos) {
     `
     if(produto.complemento.length > 0) {
       elementoProdutos.innerHTML += `
-        <div class="container row row-cols-1">
-          <div class="col produto__linha__complemento">
+        <div class="container row row-cols-1 produto__linha__complemento">
+          <div class="col">
             ${produto.complemento}
           </div>
         </div>

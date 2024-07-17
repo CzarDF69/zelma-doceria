@@ -90,15 +90,15 @@
   height: 2.7rem;
   width: 7.2rem;
   text-decoration: none;
-  color: #fff;
+  color: white;
   border-radius: 8px;
   margin: 0.2rem;
 }
 
 .btn:hover {
-  color: #cecdcd;
+  color: var(--text-tag-color);
   border-radius: 10px;
-  border-bottom: 2px solid var(--bg-color);
+  border-bottom: 2px solid var(--text-tag-color);
 }
 
 .produtos {
@@ -106,12 +106,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 0 10rem;
 }
 
 .produto__cabecalho__categoria,
 .produto__cabecalho__linha {
   color: var(--text-title-color);
+  max-width: 800px;
 }
 
 .produto__cabecalho__categoria {
@@ -125,12 +125,17 @@
   text-align: right;
 }
 
+.produto__linha {
+  max-width: 800px;
+}
+
 .produto__linha__nome,
 .produto__linha__preco {
   padding-top: 2%;
 }
 
 .produto__linha__complemento {
+  max-width: 800px;
   font-style: italic;
 }
 
@@ -160,10 +165,6 @@
 
   .header__contato {
     font-size: large;
-  }
-
-  .btn {
-    width: 10rem;
   }
 
   .produtos {
