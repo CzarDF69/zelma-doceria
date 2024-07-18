@@ -44,11 +44,19 @@ function exibirProdutosNaTela(listaDeProdutos) {
   });
   if(categoriaAnt == '') {
     elementoProdutos.innerHTML = `
-    <div class="container row row-cols-1">
-      <div class="col produto__cabecalho__categoria">
-        Não há produtos para opção selecionada.
+      <div class="container row row-cols-1">
+        <div class="col produto__cabecalho__categoria">
+          Não há produtos para opção selecionada.
+        </div>
       </div>
-    </div>
-  `;
+    `;
+  } else {
+    elementoProdutos.innerHTML += `
+      <div class="container row row-cols-1 mensagem__final">
+        <div class="col">
+          Todos os nossos produtos podem ser encomendados. Pergunte-nos sobre prazo de entrega.
+        </div>
+      </div>
+    `;
   }
 }

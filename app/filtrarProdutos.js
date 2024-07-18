@@ -5,11 +5,7 @@ function filtrarProdutos() {
     const elementoBtn = document.getElementById(this.id);
     const tipo = elementoBtn.value;
     let prodFiltrados = [];
-    if (tipo == 'encomenda') {
-        prodFiltrados = produtos.filter(produto => produto.tags[0] == tipo);
-    } else {
-        prodFiltrados = tipo == 'tudo' ? produtos.filter(produto => produto.categoria != "tudo") : produtos.filter(produto => produto.categoria == tipo);
-    }
+    prodFiltrados = tipo == 'todos' ? produtos.filter(produto => produto.categoria != "todos") : produtos.filter(produto => produto.categoria == tipo);
     exibirProdutosNaTela(ordenarProdutos(prodFiltrados));
 }
 

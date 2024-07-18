@@ -134,17 +134,19 @@
   padding-top: 2%;
 }
 
-.produto__linha__complemento {
+.produto__linha__complemento,
+.mensagem__final {
   max-width: 800px;
   font-style: italic;
+}
+
+.mensagem__final {
+  padding-top: 5%;
 }
 
 .rodape {
   background-color: var(--bg-color);
   color: var(--text-tag-color);
-}
-
-.rodape__elemento {
   padding: 1rem;
 }
 

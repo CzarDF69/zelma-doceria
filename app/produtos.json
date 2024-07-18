@@ -1,170 +1,521 @@
 [
     {
-        "categoria": "lanches",
-        "nome": "Cuscuz simples",
-        "preco": 3.5,
+        "categoria": "bebidas",
+        "nome": "Café coado",
         "complemento": "",
-        "tags": []
-    },
-    {
-        "categoria": "lanches",
-        "nome": "Crepioca",
-        "preco": 6,
-        "complemento": "",
-        "tags": []
-    },
-    {
-        "categoria": "lanches",
-        "nome": "Tapioca",
-        "preco": 4,
-        "complemento": "",
-        "tags": []
-    },
-    {
-        "categoria": "lanches",
-        "nome": "Pão na chapa",
-        "preco": 3.5,
-        "complemento": "",
-        "tags": []
-    },
-    {
-        "categoria": "lanches",
-        "nome": "Queijo quente",
-        "preco": 5,
-        "complemento": "",
-        "tags": []
-    },
-    {
-        "categoria": "lanches",
-        "nome": "Misto quente",
-        "preco": 5.5,
-        "complemento": "",
-        "tags": []
-    },
-    {
-        "categoria": "lanches",
-        "nome": "~ Adicionais cada:",
-        "preco": 2,
-        "complemento": "ovo, queijo, presunto e frango",
-        "tags": []
+        "preco": 2
     },
     {
         "categoria": "bebidas",
-        "nome": "Sucos naturais sabores:",
-        "preco": 6,
+        "nome": "Café coado com leite",
+        "complemento": "",
+        "preco": 4
+    },
+    {
+        "categoria": "bebidas",
+        "nome": "Expresso pequeno",
+        "complemento": "",
+        "preco": 5
+    },
+    {
+        "categoria": "bebidas",
+        "nome": "Expresso grande",
+        "complemento": "",
+        "preco": 7
+    },
+    {
+        "categoria": "bebidas",
+        "nome": "Expresso grande com leite",
+        "complemento": "",
+        "preco": 9
+    },
+    {
+        "categoria": "bebidas",
+        "nome": "Capputino",
+        "complemento": "",
+        "preco": 6.5
+    },
+    {
+        "categoria": "bebidas",
+        "nome": "Chocolate quente",
+        "complemento": "",
+        "preco": 6.5
+    },
+    {
+        "categoria": "bebidas",
+        "nome": "Chá diversos",
+        "complemento": "",
+        "preco": 5
+    },
+    {
+        "categoria": "bebidas",
+        "nome": "Refrigerante lata 220ml",
+        "complemento": "",
+        "preco": 4.5
+    },
+    {
+        "categoria": "bebidas",
+        "nome": "Refrigerante lata 310ml",
+        "complemento": "",
+        "preco": 6
+    },
+    {
+        "categoria": "bebidas",
+        "nome": "Refrigerante 2 litros",
+        "complemento": "",
+        "preco": 13.5
+    },
+    {
+        "categoria": "bebidas",
+        "nome": "Todynho",
+        "complemento": "",
+        "preco": 5
+    },
+    {
+        "categoria": "bebidas",
+        "nome": "Sucos diversos sabores:",
         "complemento": "abacaxi, acerola, açaí, cajá, caju, frutas vermelhas, goiaba, limão,  manga, maracujá ou morango",
-        "tags": []
+        "preco": 6
     },
     {
         "categoria": "bebidas",
         "nome": "Suco de laranja",
-        "preco": 8.5,
         "complemento": "",
-        "tags": []
+        "preco": 8.5
     },
     {
         "categoria": "bebidas",
-        "nome": "Suco Detox: Couve, abacaxi, limão e maçã",
-        "preco": 8.5,
+        "nome": "Suco Detox 1 Couve, abacaxi, limão e maçã",
         "complemento": "",
-        "tags": []
+        "preco": 8.5
     },
     {
         "categoria": "bebidas",
-        "nome": "Suco Detox: Couve, rúcula, laranja e linhaça",
-        "preco": 8.5,
+        "nome": "Suco Detox 2 Couve, rúcula, laranja e linhaça",
         "complemento": "",
-        "tags": []
+        "preco": 8.5
     },
     {
         "categoria": "bebidas",
-        "nome": "Suco Detox: Couve, beterraba e gengibre",
-        "preco": 8.5,
+        "nome": "Suco Detox 3 Couve, beterraba e gengibre",
         "complemento": "",
-        "tags": []
+        "preco": 8.5
     },
     {
         "categoria": "bebidas",
-        "nome": "Suco Detox: Couve, caju e acerola",
-        "preco": 8.5,
+        "nome": "Suco Detox 4 Couve, caju e acerola",
         "complemento": "",
-        "tags": []
+        "preco": 8.5
     },
     {
         "categoria": "bebidas",
-        "nome": "Suco Detox: Couve, laranja, cenoura, beterraba e gengibre",
-        "preco": 8.5,
+        "nome": "Suco Detox 5 Couve, laranja, cenoura, beterraba e gengibre",
         "complemento": "",
-        "tags": []
+        "preco": 8.5
     },
     {
         "categoria": "bebidas",
-        "nome": "Suco Detox: Melão, abacaxi, maçã e chia",
-        "preco": 8.5,
+        "nome": "Suco Detox 6 Cenoura, gengibre, abacaxi e linhaça",
         "complemento": "",
-        "tags": []
+        "preco": 8.5
     },
     {
         "categoria": "bebidas",
-        "nome": "Suco Detox: Cenoura, gengibre, abacaxi e linhaça",
-        "preco": 8.5,
+        "nome": "Suco Detox 7 Melão, abacaxi, maçã e chia",
         "complemento": "",
-        "tags": []
+        "preco": 8.5
     },
     {
         "categoria": "bebidas",
-        "nome": "Suco Especial: Melão com erva doce",
-        "preco": 8.5,
+        "nome": "Suco de melão com erva doce",
         "complemento": "",
-        "tags": []
+        "preco": 8.5
     },
     {
         "categoria": "bebidas",
-        "nome": "Suco Especial: Banana com laranja",
-        "preco": 8.5,
+        "nome": "Suco de banana com laranja",
         "complemento": "",
-        "tags": []
+        "preco": 8.5
     },
     {
         "categoria": "bebidas",
-        "nome": "Suco Especial: Beterraba com laranja",
-        "preco": 8.5,
+        "nome": "Suco de beterraba com laranja",
         "complemento": "",
-        "tags": []
+        "preco": 8.5
     },
     {
         "categoria": "bebidas",
         "nome": "Vitamina simples sabores:",
-        "preco": 8.5,
         "complemento": "abacate, açaí, banana ou mamão",
-        "tags": []
+        "preco": 8.5
     },
     {
         "categoria": "bebidas",
-        "nome": "Vitamina especial: Abacate, banana, aveia e mel",
-        "preco": 9.5,
+        "nome": "Vitamina de abacate, banana, aveia e mel",
         "complemento": "",
-        "tags": []
+        "preco": 9.5
     },
     {
         "categoria": "bebidas",
-        "nome": "Vitamina especial: Banana, leite e aveia",
-        "preco": 9.5,
+        "nome": "Vitamina de banana, leite e aveia",
         "complemento": "",
-        "tags": []
+        "preco": 9.5
     },
     {
         "categoria": "bebidas",
-        "nome": "Vitamina especial: Banana, maçã, aveia e ameixa",
-        "preco": 9.5,
+        "nome": "Vitamina de banana, maçã, aveia e ameixa",
         "complemento": "",
-        "tags": []
+        "preco": 9.5
     },
     {
         "categoria": "bebidas",
-        "nome": "Vitamina especial: Banana, açaí e amendoim",
-        "preco": 9.5,
+        "nome": "Vitamina de banana, açaí e amendoim",
         "complemento": "",
-        "tags": []
+        "preco": 9.5
+    },
+    {
+        "categoria": "bolos",
+        "nome": "Bolo de cenoura",
+        "complemento": "Grande com cobertura de chocolate",
+        "preco": 26
+    },
+    {
+        "categoria": "bolos",
+        "nome": "Bolo de limão",
+        "complemento": "Grande com cobertura de mousse de limão",
+        "preco": 30
+    },
+    {
+        "categoria": "bolos",
+        "nome": "Bolo de chocolate",
+        "complemento": "Grande com cobertura de chocolate",
+        "preco": 26
+    },
+    {
+        "categoria": "bolos",
+        "nome": "Bolo casadinho",
+        "complemento": "Grande com cobertura",
+        "preco": 30
+    },
+    {
+        "categoria": "bolos",
+        "nome": "Bolo de milho",
+        "complemento": "Grande sem cobertura",
+        "preco": 24
+    },
+    {
+        "categoria": "bolos",
+        "nome": "Bolo de laranja",
+        "complemento": "Grande sem cobertura",
+        "preco": 24
+    },
+    {
+        "categoria": "bolos",
+        "nome": "Bolo de banana com passas",
+        "complemento": "Grande sem cobertura",
+        "preco": 24
+    },
+    {
+        "categoria": "bolos",
+        "nome": "Bolo de fubá com goiabada",
+        "complemento": "Grande sem cobertura",
+        "preco": 26
+    },
+    {
+        "categoria": "bolos",
+        "nome": "Bolo de mandioca",
+        "complemento": "Grande sem cobertura",
+        "preco": 26
+    },
+    {
+        "categoria": "bolos",
+        "nome": "Bolo de mandioca com goiabada e requeijão",
+        "complemento": "Grande sem cobertura",
+        "preco": 28
+    },
+    {
+        "categoria": "bolos",
+        "nome": "Bolo de cenoura sem cobertura",
+        "complemento": "Grande sem cobertura",
+        "preco": 24
+    },
+    {
+        "categoria": "bolos",
+        "nome": "Bolo de banana",
+        "complemento": "Grande caramelizado",
+        "preco": 26
+    },
+    {
+        "categoria": "bolos",
+        "nome": "Bolo de abacaxi",
+        "complemento": "Grande caramelizado",
+        "preco": 28
+    },
+    {
+        "categoria": "bolos",
+        "nome": "Bolo de cenoura",
+        "complemento": "Pequeno com cobertura de chocolate",
+        "preco": 20
+    },
+    {
+        "categoria": "bolos",
+        "nome": "Bolo de chocolate",
+        "complemento": "Pequeno com cobertura de chocolate",
+        "preco": 20
+    },
+    {
+        "categoria": "bolos",
+        "nome": "Bolo de laranja",
+        "complemento": "Pequeno sem cobertura",
+        "preco": 19
+    },
+    {
+        "categoria": "bolos",
+        "nome": "Bolo de banana com passas",
+        "complemento": "Pequeno sem cobertura",
+        "preco": 19
+    },
+    {
+        "categoria": "bolos",
+        "nome": "Bolo de milho",
+        "complemento": "Pequeno sem cobertura",
+        "preco": 19
+    },
+    {
+        "categoria": "bolos",
+        "nome": "Bolo de fubá com goiabada",
+        "complemento": "Pequeno sem cobertura",
+        "preco": 20
+    },
+    {
+        "categoria": "bolos",
+        "nome": "Bolo de cenoura",
+        "complemento": "Pequeno sem cobertura",
+        "preco": 17
+    },
+    {
+        "categoria": "doces",
+        "nome": "Copo ninho duplo com morango",
+        "complemento": "",
+        "preco": 12
+    },
+    {
+        "categoria": "doces",
+        "nome": "Copo brownie com morango",
+        "complemento": "",
+        "preco": 12
+    },
+    {
+        "categoria": "doces",
+        "nome": "Copo de casadinho com morango",
+        "complemento": "",
+        "preco": 12
+    },
+    {
+        "categoria": "doces",
+        "nome": "Copo de banoffe",
+        "complemento": "",
+        "preco": 12
+    },
+    {
+        "categoria": "doces",
+        "nome": "Copo surpresa de uva",
+        "complemento": "",
+        "preco": 12
+    },
+    {
+        "categoria": "doces",
+        "nome": "Copo tortinha de limão",
+        "complemento": "",
+        "preco": 12
+    },
+    {
+        "categoria": "doces",
+        "nome": "Copo coxinha de morango",
+        "complemento": "",
+        "preco": 8
+    },
+    {
+        "categoria": "doces",
+        "nome": "Copo bombom de morango",
+        "complemento": "",
+        "preco": 8
+    },
+    {
+        "categoria": "doces",
+        "nome": "Copo bombom de surpresa de uva",
+        "complemento": "",
+        "preco": 8
+    },
+    {
+        "categoria": "doces",
+        "nome": "Copo brownies",
+        "complemento": "",
+        "preco": 7
+    },
+    {
+        "categoria": "doces",
+        "nome": "Copo mousse de chocolate",
+        "complemento": "",
+        "preco": 10
+    },
+    {
+        "categoria": "doces",
+        "nome": "Copo mousse de chocolate com maracujá",
+        "complemento": "",
+        "preco": 12
+    },
+    {
+        "categoria": "doces",
+        "nome": "Copo torta alemã",
+        "complemento": "",
+        "preco": 9
+    },
+    {
+        "categoria": "doces",
+        "nome": "Copo pão de mel",
+        "complemento": "",
+        "preco": 7
+    },
+    {
+        "categoria": "doces",
+        "nome": "Copo bolo gelado de ninho com nuttela",
+        "complemento": "",
+        "preco": 9
+    },
+    {
+        "categoria": "doces",
+        "nome": "Copo bolo gelado de abacaxi",
+        "complemento": "",
+        "preco": 9
+    },
+    {
+        "categoria": "doces",
+        "nome": "Copo bolo gelado de coco com ameixa e doce de leite",
+        "complemento": "",
+        "preco": 8
+    },
+
+    {
+        "categoria": "lanches",
+        "nome": "Cuscuz",
+        "complemento": "Adicionais R$ 1,50",
+        "preco": 4
+    },
+    {
+        "categoria": "lanches",
+        "nome": "Crepioca",
+        "complemento": "",
+        "preco": 4.5
+    },
+    {
+        "categoria": "lanches",
+        "nome": "Tapioca",
+        "complemento": "Adicionais R$ 1,50",
+        "preco": 4
+    },
+    {
+        "categoria": "lanches",
+        "nome": "Pão na chapa",
+        "complemento": "",
+        "preco": 4
+    },
+    {
+        "categoria": "lanches",
+        "nome": "Pão de queijo palito",
+        "complemento": "",
+        "preco": 2.5
+    },
+    {
+        "categoria": "lanches",
+        "nome": "Mini pão de queijo",
+        "complemento": "",
+        "preco": 0.8
+    },
+    {
+        "categoria": "lanches",
+        "nome": "Queijo quente",
+        "complemento": "",
+        "preco": 5.5
+    },
+    {
+        "categoria": "lanches",
+        "nome": "Misto quente",
+        "complemento": "",
+        "preco": 5.5
+    },
+    {
+        "categoria": "lanches",
+        "nome": "Empada de frango com catupiry",
+        "complemento": "",
+        "preco": 6
+    },
+    {
+        "categoria": "lanches",
+        "nome": "Empada de frango com azeitona",
+        "complemento": "",
+        "preco": 6
+    },
+    {
+        "categoria": "lanches",
+        "nome": "Empada de carne seca com catupiry",
+        "complemento": "",
+        "preco": 7.5
+    },
+    {
+        "categoria": "lanches",
+        "nome": "Empada de camarão",
+        "complemento": "",
+        "preco": 8.5
+    },
+    {
+        "categoria": "lanches",
+        "nome": "~ Adicionais cada:",
+        "complemento": "ovo, queijo, presunto e frango",
+        "preco": 2
+    },
+
+    {
+        "categoria": "festa",
+        "nome": "Kit Festa 1",
+        "complemento": "",
+        "preco": 140
+    },
+    {
+        "categoria": "festa",
+        "nome": "Kit Festa 2",
+        "complemento": "",
+        "preco": 280
+    },
+    {
+        "categoria": "festa",
+        "nome": "Kit Festa 3",
+        "complemento": "",
+        "preco": 320
+    },
+    {
+        "categoria": "festa",
+        "nome": "Cento de salgado frito",
+        "complemento": "",
+        "preco": 50
+    },
+    {
+        "categoria": "festa",
+        "nome": "Cento de pão de queijo",
+        "complemento": "",
+        "preco": 70
+    },
+    {
+        "categoria": "festa",
+        "nome": "Kilo de bolo confeitado",
+        "complemento": "",
+        "preco": 70
+    },
+    {
+        "categoria": "festa",
+        "nome": "Cento de doces tradicionais",
+        "complemento": "",
+        "preco": 130
     }
+
 ]
