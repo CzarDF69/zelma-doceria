@@ -37,9 +37,9 @@
 :root {
   --bg-color: #e9dc9c;
   --btn-color: #326589;
-  --text-title-color: #123db3;
-  --text-price-color: #002f52;
-  --text-tag-color: #898989;
+  --btn-text: white;
+  --btn-hover: #898989;
+  --text-title-color: #9e033e;
 }
 
 .container {
@@ -90,15 +90,15 @@
   height: 2.7rem;
   width: 7.2rem;
   text-decoration: none;
-  color: white;
+  color: var(--btn-text);
   border-radius: 8px;
   margin: 0.2rem;
 }
 
 .btn:hover {
-  color: var(--text-tag-color);
+  color: var(--btn-hover);
   border-radius: 10px;
-  border-bottom: 2px solid var(--text-tag-color);
+  border-bottom: 2px solid var(--btn-color);
 }
 
 .produtos {
@@ -146,7 +146,7 @@
 
 .rodape {
   background-color: var(--bg-color);
-  color: var(--text-tag-color);
+  color: var(--btn-hover);
   padding: 1rem;
 }
 
