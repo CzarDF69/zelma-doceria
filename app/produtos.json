@@ -85,43 +85,43 @@
     },
     {
         "categoria": "bebidas",
-        "nome": "Suco Detox 1 Couve, abacaxi, limão e maçã",
+        "nome": "Suco Detox de couve, abacaxi, limão e maçã",
         "complemento": "",
         "preco": 8.5
     },
     {
         "categoria": "bebidas",
-        "nome": "Suco Detox 2 Couve, rúcula, laranja e linhaça",
+        "nome": "Suco Detox de couve, rúcula, laranja e linhaça",
         "complemento": "",
         "preco": 8.5
     },
     {
         "categoria": "bebidas",
-        "nome": "Suco Detox 3 Couve, beterraba e gengibre",
+        "nome": "Suco Detox de couve, beterraba e gengibre",
         "complemento": "",
         "preco": 8.5
     },
     {
         "categoria": "bebidas",
-        "nome": "Suco Detox 4 Couve, caju e acerola",
+        "nome": "Suco Detox de couve, caju e acerola",
         "complemento": "",
         "preco": 8.5
     },
     {
         "categoria": "bebidas",
-        "nome": "Suco Detox 5 Couve, laranja, cenoura, beterraba e gengibre",
+        "nome": "Suco Detox de couve, laranja, cenoura, beterraba e gengibre",
         "complemento": "",
         "preco": 8.5
     },
     {
         "categoria": "bebidas",
-        "nome": "Suco Detox 6 Cenoura, gengibre, abacaxi e linhaça",
+        "nome": "Suco Detox de cenoura, gengibre, abacaxi e linhaça",
         "complemento": "",
         "preco": 8.5
     },
     {
         "categoria": "bebidas",
-        "nome": "Suco Detox 7 Melão, abacaxi, maçã e chia",
+        "nome": "Suco Detox de melão, abacaxi, maçã e chia",
         "complemento": "",
         "preco": 8.5
     },
@@ -399,7 +399,7 @@
     {
         "categoria": "lanches",
         "nome": "Cuscuz",
-        "complemento": "Adicionais R$ 1,50",
+        "complemento": "",
         "preco": 4
     },
     {
@@ -411,7 +411,7 @@
     {
         "categoria": "lanches",
         "nome": "Tapioca",
-        "complemento": "Adicionais R$ 1,50",
+        "complemento": "",
         "preco": 4
     },
     {
@@ -517,5 +517,4 @@
         "complemento": "",
         "preco": 130
     }
-
 ]
