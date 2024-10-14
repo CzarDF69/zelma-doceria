@@ -1,13 +1,10 @@
-# Projeto: Cardápio Online de Produtos
+# Projeto: Cardápio Digital
 
 * Versão: 1.0
-* Desenv: César Augusto Tomm
+* Desenvolvedor: César Augusto Tomm
 * Data: 01/07/2024
 * Cliente: Zelma Doceria e Cafeteria
-
-## Descrição
-
-Listar valores de produtos e serviços, no celular do cliente, a partir da leitura de um QR-Code.
+* Descrição: Listar valores de produtos e serviços, no celular do cliente, a partir da leitura de um QR-Code.
 
 ## Objetivo acadêmico
 
@@ -18,3 +15,13 @@ Este projeto visa atender exigência de atividade de extensão, prevista na Reso
 * [HTML5, CSS, Javascript, Bootstrap e JQuery](https://www.w3schools.com/)
 * [Amazon Web Services - AWS](https://aws.amazon.com/pt/console/)
 * [QR Plus](https://www.qrplus.com.br/)
+
+## Descrição do projeto
+
+Para execução deste projeto, inicialmente foi desenvolvida uma página web usando HTML5, CSS, Javascript, Bootstrap e JQuery, cuja funcionalidade principal é ler um arquivo no formato JSON e apresentar as informações conforme a seleção de um dos botões disponíveis.
+
+Para apresentar a página na internet, o projeto foi salvo na raiz de um bucket S3 da Amazon, com hospedagem estática desabilidada e bloqueio de acesso público ativado. A política de acesso ao bucket permite leitura originada do CloudFront da AWS.
+
+Para que o acesso público aconteça com segurança, foi criado um domínio de distribuição usando o CloudFront, com o domínio de origem configurado para apontar para o bucket que contém a página salva.
+
+Por fim, com a página do cardápio digital aberta no Google Chrome, a imagem do QR-Code de acesso foi gerada usando o plugin QR Plus.
